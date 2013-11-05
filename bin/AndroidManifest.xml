@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ictv.yellowcab"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">
+	</uses-permission>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.NoActionBar"
+         >
+        
+        <activity
+            android:name="com.ictv.yellowcab.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".TopActivity"   android:screenOrientation="portrait"/>
+        <activity android:name=".StoreLocatorActivity"   android:screenOrientation="portrait"/>
+    </application>
+  
+</manifest>

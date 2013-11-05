@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/abs__ab_bottom_solid_light_holo" />
+
+    <Button
+        android:id="@+id/left_btn"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:text=">" />
+
+    <Button
+        android:id="@+id/right_btn"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:text="&lt;" />
+    
+   <ImageView 
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_below="@+id/imageView1"
+       android:background="@drawable/login_bg_android"/>
+
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/left_btn"
+       android:layout_alignBottom="@+id/left_btn"
+       android:layout_centerHorizontal="true"
+       android:text="Top"
+       android:textColor="#000000" />
+
+</RelativeLayout>
