@@ -34,7 +34,7 @@ public class TopActivity extends BaseActivity {
 		getSlidingMenu().setSecondaryMenu(R.layout.menu_frame_two);
 		getSlidingMenu().setSecondaryShadowDrawable(R.drawable.shadowright);
 		getSupportFragmentManager().beginTransaction()
-				.replace(R.id.menu_frame_two, new RightMenuFragment()).commit();
+				.replace(R.id.menu_frame_two, new RightLoginFragment()).commit();
 
 		// setSlide();
 
