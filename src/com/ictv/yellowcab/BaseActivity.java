@@ -24,7 +24,7 @@ public class BaseActivity extends SlidingFragmentActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		//test
+		//test 23
 		setTitle(mTitleRes);
 
 		// set the Behind View
