@@ -29,25 +29,25 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/linearLayout1"
-        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
         android:text="Please login or register or register to be able to access your loyalty card and profile." />
 
     <Button
         android:id="@+id/loginBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
-        android:layout_marginTop="20dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/login_btn"
-        android:textColor="#fea620"
-        android:text="LOGIN" />
+        android:text="LOGIN"
+        android:textColor="#fea620" />
 
     <Button
         android:id="@+id/registerBtn"
@@ -55,12 +55,53 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
+        android:layout_below="@+id/loginBtn"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_below="@+id/loginBtn"
         android:layout_marginTop="10dp"
         android:background="@drawable/login_register_btn"
-        android:textColor="#000000"
-        android:text="REGISTER" />
+        android:text="REGISTER"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="or" />
+
+    <Button
+        android:id="@+id/button1"
+         style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/register_fb_btn"
+        android:text="       Sign in with Facebook"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button2"
+         style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/register_twitter"
+        android:text="       Sign in with Twitter"
+        android:textColor="#FFFFFF" />
 
 </RelativeLayout>

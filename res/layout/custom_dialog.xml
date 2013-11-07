@@ -1,25 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/store_locator_custom_dialog"
-     >
+    android:background="@drawable/store_locator_custom_dialog_bg" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fea620"
+        android:text="Turn on GPS" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:text="The Yellow Cab mobile app would like to request that you turn on your GPS to be able to use the map function of the app." 
+        android:textColor="#34495e"/>
 
     <Button
         android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
-        android:background="@drawable/store_locator_turn_on_gps_btn" />
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:text="TURN ON GPS"
+        android:background="@drawable/store_locator_turn_on_gps_btn"
+        android:textColor="#fea620" />
 
     <Button
         android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button1"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="CANCEL"
+        android:textColor="#000000"
         android:background="@drawable/store_locator_cancel_gps_btn" />
 
 </RelativeLayout>
