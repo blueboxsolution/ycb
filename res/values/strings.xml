@@ -4,6 +4,8 @@
     <string name="app_name">YellowCab</string>
     <string name="action_settings">Settings</string>
     <string name="splash_string">Yellow Cab</string>
- 	<string name="github">GitHub</string>
- 	 <string name="header">Yellow Cab</string>
+ 	<string name="header">Yellow Cab</string>
+ 	<string name="github">Git hub</string>
+ 	<string name="APP_ID">722779631068834</string>
+
 </resources>

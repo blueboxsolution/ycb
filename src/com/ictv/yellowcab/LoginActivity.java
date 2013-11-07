@@ -16,7 +16,6 @@ public class LoginActivity extends Activity{
 		setContentView(R.layout.login_layout);
 		
 		Button loginBtn = (Button) findViewById(R.id.loginBtn);
-		
 		loginBtn.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -27,7 +26,15 @@ public class LoginActivity extends Activity{
 			}
 		});
 		
-		
+		Button cancelBtn = (Button) findViewById(R.id.cancelBtn);
+		cancelBtn.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				finish();
+			}
+		});
 	}
 	
 	

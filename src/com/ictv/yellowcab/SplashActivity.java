@@ -20,7 +20,7 @@ public class SplashActivity extends Activity {
 	                sleep(2000);
 	            } catch(Exception e) {}
 	            finally {
-	                Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
+	                Intent intent = new Intent(SplashActivity.this, TopActivity.class);
 	                startActivity(intent);
 	            }
 	        }

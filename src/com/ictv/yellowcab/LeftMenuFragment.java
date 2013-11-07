@@ -35,7 +35,10 @@ public class LeftMenuFragment extends ListFragment {
 		super.onActivityCreated(savedInstanceState);
 		SampleAdapter adapter = new SampleAdapter(getActivity());
 //		for (int i = 0; i < 5; i++) {
-			adapter.add(new SampleItem("Yellow Cab", android.R.drawable.ic_menu_search));
+		View header = getActivity().getLayoutInflater().inflate(R.layout.header_layout, null);
+	    ListView listView = getListView();
+	    listView.addHeaderView(header);
+	    
 			adapter.add(new SampleItem("Home", R.drawable.menu_home_icon));
 			adapter.add(new SampleItem("Store Locator", R.drawable.menu_store_locator_icon));
 			adapter.add(new SampleItem("Store Menu", R.drawable.menu_store_icon));

@@ -117,7 +117,7 @@
         android:textColor="#FFFFFF" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/cancelBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"

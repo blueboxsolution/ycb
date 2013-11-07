@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="15dp"
             android:text="You are not logged in."
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#fea620" />
