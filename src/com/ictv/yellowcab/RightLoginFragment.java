@@ -39,6 +39,16 @@ public class RightLoginFragment extends Fragment implements View.OnClickListener
 			}
 		});
 	    
+	    Button facebookSignupBtn = (Button) view.findViewById(R.id.facebookSignupBtn);
+	    facebookSignupBtn.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(getActivity(), RegisterFBActivity.class);
+		    	  startActivity(intent);
+			}
+		});
 	    
 	    return view;
 	  }
