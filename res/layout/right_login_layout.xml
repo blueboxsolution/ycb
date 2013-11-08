@@ -73,7 +73,7 @@
         android:text="or" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/facebookSignupBtn"
          style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/button1"
+        android:layout_below="@+id/facebookSignupBtn"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"

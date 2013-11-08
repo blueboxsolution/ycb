@@ -6,6 +6,6 @@
     <string name="splash_string">Yellow Cab</string>
  	<string name="header">Yellow Cab</string>
  	<string name="github">Git hub</string>
- 	<string name="APP_ID">722779631068834</string>
+ 	<string name="app_id">722779631068834</string>
 
 </resources>
